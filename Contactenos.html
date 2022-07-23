@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ComunidadGamer</title>
+        <link rel="shortcut icon" href="Imagenes/logo.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quintessential&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body  class="fondo">
+        <header class="header">
+            <div class="logo-header">
+                <a href="Contactenos.html"></a><img src="Imagenes/logo.jpg" alt="logo"></a> 
+            </div>
+            <nav class="nav-menu"> 
+                <a href="Index.html">Inicio</a>
+                <a href="Historia.html"> Historia</a> 
+                <a href="Resultados.html"> Resultados</a> 
+                <a href="Consolas.html"> Consolas</a> 
+                <a href="Contactenos.html"> Contáctenos</a> 
+            </nav>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success nav__buscador" type="submit">Search</button>
+              </form>
+        </header>
+        
+        <main class="contacto">
+               <div >
+                   <form class="form" action="contacto.html">
+                        <h3>Datos Personales </h3>
+                        
+                       <label for="name">Nombres: </label>
+                       <input type="text" id="name" placeholder="Ingrese sus nombres" >
+                       <br></br>
+                       <label for="ape">Apellidos: </label>
+                       <input type="text" id="ape" placeholder="Ingrese sus apellidos">
+                       <br><br>
+                       <label for="correo">Email:</label>
+                       <input type="email" id="correo" placeholder="ejemplo@gmail.com">
+                       <br><br>
+                       <label for="pais">País:</label>
+                           <select name="pais" id="Pais">
+                               <option value="s">Selecciona</option>
+                               <option value="P">Perú</option>
+                               <option value="A">Argentina</option>
+                               <option value="E">Ecuador</option>
+                               <option value="B">Bolivia</option>
+                               <option value="C">Colombia</option>
+                               <option value="Ch">Chile</option>
+                               <option value="Pa">Paraguay</option>
+                               <option value="U">Uruguay</option>
+                           </select>
+                       </label>
+                       <br><br>
+                       <label for="telefono">Numero de telefono</label>
+                       <input type="tel"  id="telefono" placeholder="960224169">       
+               </div>
+
+               <div class="subtituloFormulario">
+                <h4>¿Cuál es el motivo de su consulta?</h4>
+                </div>
+
+               <div class="seccionFormulario">
+                <div class="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-light" for="btnradio1">Información adicional</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-light" for="btnradio2">Próximos partidos</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-light" for="btnradio3">Mercado de traspasos</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                    <label class="btn btn-outline-light" for="btnradio4">Últimas noticias</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                    <label class="btn btn-outline-light" for="btnradio5">Otro motivo</label>
+                </div>
+                
+                <p>En caso de haber selecccionado la opción "Otro motivo", espcifíquelo en el siguiente recuadro:</p>
+                </div>
+                <div class="area">
+                     <textarea name="" id="" cols="60" rows="8"></textarea>
+                </div>
+                
+                <input type="submit" class="btn-dark" value="Enviar formulario">
+                <input type="reset"  class="btn-dark" value="Limpiar">
+            </div>
+
+           </form>
+           </main>
+    
+        <footer >    
+            <div class="social-icon-container">
+                <a href="https://facebook.com/" class="social-icon"> <img src="Imagenes/facebook.png" alt="facebook"></a>
+                <a href="https://instagram.com/" class="social-icon"> <img src="Imagenes/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/" class="social-icon"> <img src="Imagenes/twitter.png" alt="twitter"></a>
+                <a href="https://youtube.com/" class="social-icon"> <img src="Imagenes/youtube.png" alt="youtube"></a>
+            </div>
+            <ul class="footer-menu-container">
+                <li class="menu-item">Legal</li>
+                <li class="menu-item">Cookies</li>
+                <li class="menu-item">Privacy</li>
+                <li class="menu-item">Shipping</li>
+                <li class="menu-item">Refounds</li>
+            </ul>
+            <spam class="copyright">&copy;2021, ComunidadGamer. All rights reserved.</span>
+        </footer>
+
+    </body>
+</html>
