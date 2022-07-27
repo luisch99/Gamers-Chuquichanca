@@ -1,0 +1,99 @@
+.subtitulo{
+    color: $subtitulocolor;
+    font-size: 200%;
+    font-family: $fuentesubtitulo;
+}
+.parte1 {
+    background-color: $fondocuadros;
+    display: flex;
+    grid-area: a2;
+    margin-bottom: 50px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    .puntos1 li{
+        line-height: 1.5;
+        list-style-type: disc;
+        color: $colorpuntos; 
+        margin-top: 5px;
+        margin-left: 30px;
+        font-size: 20px;
+        
+    }
+    .beneficios {
+        width: 60%; 
+        
+    }
+      
+    .imgbene {
+        width: 40%; 
+        
+    }
+}
+
+.parte2{
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    width: 1fr;
+    background-color: $fondocuadros;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    .esport{
+        background-color: $fondocuadros;
+        width: 60%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 10px;
+        text-align: justify;
+        line-height: 1.5;
+        overflow-y: scroll;
+        p{
+            font-size: 20px;
+            
+        }
+    }
+    .imgesport{
+        width: 40%;
+        height: 400px;
+        text-decoration: underline;
+    }
+    .imgesport img{
+        width: 100%;
+        height: 100%;
+        justify-content: right;
+    }
+}
+
+.muestra{
+    background-color: lightsteelblue;
+    width: 95%;
+    caption-side: bottom;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-collapse:collapse;
+    padding:  5px;
+    margin-bottom: 10%;
+    table{
+        background-color: $colortabla;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+        th{
+            background-color: $colortablath;
+            text-align: center;
+        }
+        td,th{
+            border: 2px solid $border;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+

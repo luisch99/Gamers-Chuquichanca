@@ -1,0 +1,93 @@
+.padre {
+    background-color: $fondocuadros;
+    display: flex;
+    grid-area: a2;
+    margin-bottom: 50px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    .texto {
+        width: 60%; 
+        .puntos li{
+            line-height: 1.5;
+            list-style-type: disc;
+            color: $colorpuntos; 
+            margin-left: 50px;
+            font-size: 20px;
+        }
+    }
+    .imgcon {
+        width: 40%; 
+    }
+}
+  
+
+.muestra1{
+    background-color: $fondocuadros;
+    width: 95%;
+    caption-side: bottom;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-collapse:collapse;
+    padding:  5px;
+    margin-bottom: 10%;
+    table{
+        background-color: $colortabla;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+        th{
+            background-color: $colortablath;
+            text-align: center;
+        }
+        td,th{
+            border: 2px solid $border;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.container2{
+   
+    display: grid;
+    gap: 100px;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+    margin-bottom: 30px;
+    .card{
+        width: 330px;
+        height: 460px;
+        border-radius: 8px;
+        box-shadow: 0 2px 20px $colorbox;
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        background-color: $fondocard;
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px $colorbox;
+        }
+        img{
+            width: 330px;
+            height: 220px;
+        }
+        h2{
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        p{
+            padding: 0 1rem;
+            font-size: 16px;
+            font-weight: 300;
+            color: $letracard;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+    
+}

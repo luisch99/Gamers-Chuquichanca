@@ -10,33 +10,46 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quintessential&family=Roboto+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/8476d2699d.js" crossorigin="anonymous"></script>
     </head>
     <body  class="fondo">
         <header class="header">
+            <div class="respmenu">
             <div class="logo-header">
                 <a href="contactenos.html"></a><img src="imagenes/logo.jpg" alt="logo"></a> 
             </div>
-            <nav class="nav-menu"> 
-                <a href="index.html">Inicio</a>
-                <a href="historia.html"> Historia</a> 
-                <a href="resultados.html"> Resultados</a> 
-                <a href="consolas.html"> Consolas</a> 
-                <a href="contactenos.html"> Contáctenos</a> 
-            </nav>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success nav__buscador" type="submit">Search</button>
-              </form>
+            <input type="checkbox">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html"> Historia</a></li>
+                <li><a href="resultados.html"> Resultados</a></li>
+                <li><a href="consolas.html"> Consolas</a> </li>
+                <li><a href="contactenos.html"> Contáctenos</a> </li>
+            </ul>
+        </nav>
+        </div>
         </header>
         
+        <h1 class="title">CONTÁCTENOS</h1>
+        <h2 class="duda">
+            ¿Tienes alguna duda o sugerencia?
+        </h2>
+        <p class="parrafo">
+            Complete el siguiente formulario con los datos que se soliciten y nos pondremos en contacto con usted lo más pronto posible.
+        </p>
         <main class="contacto">
-               <div >
+            
+           <section>
+               <div>
                    <form class="form" action="contacto.html">
                         <h3>Datos Personales </h3>
-                        
+                        <br>
                        <label for="name">Nombres: </label>
                        <input type="text" id="name" placeholder="Ingrese sus nombres" >
-                       <br></br>
+                       <br><br>
                        <label for="ape">Apellidos: </label>
                        <input type="text" id="ape" placeholder="Ingrese sus apellidos">
                        <br><br>
@@ -58,41 +71,32 @@
                        </label>
                        <br><br>
                        <label for="telefono">Numero de telefono</label>
-                       <input type="tel"  id="telefono" placeholder="960224169">       
+                       <input type="tel"  id="telefono" placeholder="960224169">
                </div>
-
-               <div class="subtituloFormulario">
-                <h4>¿Cuál es el motivo de su consulta?</h4>
-                </div>
-
-               <div class="seccionFormulario">
-                <div class="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-light" for="btnradio1">Información adicional</label>
-                  
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                    <label class="btn btn-outline-light" for="btnradio2">Próximos partidos</label>
-                  
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                    <label class="btn btn-outline-light" for="btnradio3">Mercado de traspasos</label>
-
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-                    <label class="btn btn-outline-light" for="btnradio4">Últimas noticias</label>
-
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
-                    <label class="btn btn-outline-light" for="btnradio5">Otro motivo</label>
-                </div>
-                
-                <p>En caso de haber selecccionado la opción "Otro motivo", espcifíquelo en el siguiente recuadro:</p>
-                </div>
-                <div class="area">
-                     <textarea name="" id="" cols="60" rows="8"></textarea>
-                </div>
-                
-                <input type="submit" class="btn-dark" value="Enviar formulario">
-                <input type="reset"  class="btn-dark" value="Limpiar">
-            </div>
-
+               <br>
+               <fieldset class="consulta">
+                   <legend> ¿Cual es el motivo de consulta?  </legend> 
+       
+                       <label for="op1">Proximos eventos</label>
+                       <input type="radio" id="op1" value="eventos" name="envio" >
+                       <br><br>
+                       <label for="op2">Informacion extra</label>
+                       <input type="radio" id="op2" value="info" name="envio" >
+                       <br><br>
+                       <label for="op3">Error de información</label>
+                       <input type="radio" id="op3" value="errorInfo" name="envio" >
+                       <br><br>
+                       <label for="op4">Otro motivo</label>
+                       <input type="radio" id="op4" value="difMot" name="envio" >
+                       <br><br>
+                       <label for="comentario">Deje su mensaje:</label>
+                       <br><br>
+                       <textarea name="|" class="cons" placeholder="Escribe aquí tu duda o sugerencia o queja."></textarea>
+                       <br><br>
+                       <input class="boton" type="reset" value="Cancelar">
+                       <input class="boton" type="submit" value="Enviar">
+               </fieldset> 
+           </section>
            </form>
            </main>
     

@@ -1,0 +1,46 @@
+
+
+.duda{
+    margin-left: 30px;
+    font-size: 40px;
+    color: $colortexto;
+}
+.parrafo{
+    font-size: 20px;
+    font-weight: 300;
+    color: $colortextocontacto;
+    margin-left: 20px;
+    margin-top: 20px;
+} 
+.contacto{
+    border: double $colortextocontacto 5px;
+    padding: 20px 50px;
+    color: $colortextocontacto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    legend{
+        font-size: 30px;
+        color: $colortexto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .consulta{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 25px;
+        
+    }
+}
+    
+.cons{
+    width: 700px;
+    height: 100px;
+}
+
+.fondo{
+    background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");
+    background-size: auto;
+}
