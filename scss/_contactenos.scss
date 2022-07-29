@@ -3,26 +3,26 @@
 .duda{
     margin-left: 30px;
     font-size: 40px;
-    color: $colortexto;
+    color: $colorletra;
 }
 .parrafo{
     font-size: 20px;
     font-weight: 300;
-    color: $colortextocontacto;
+    color: $colorletra;
     margin-left: 20px;
     margin-top: 20px;
 } 
 .contacto{
     border: double $colortextocontacto 5px;
-    padding: 20px 50px;
-    color: $colortextocontacto;
+    padding: 20px 20px;
+    color: $colorletra;
     margin-top: 50px;
     margin-bottom: 100px;
     margin-left: 50px;
     margin-right: 50px;
     legend{
         font-size: 30px;
-        color: $colortexto;
+        color: $colorletra;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -41,6 +41,9 @@
 }
 
 .fondo{
-    background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");
-    background-size: auto;
+
+    background-image: url("https://blenderartists.org/uploads/default/original/4X/0/6/8/068977e30f259550c608dc2f33eada73aa140e8c.jpeg");
+    /*background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");*/
+    background-size: 100%;
+   
 }

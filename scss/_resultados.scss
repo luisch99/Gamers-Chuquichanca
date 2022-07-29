@@ -48,7 +48,6 @@
         flex-direction: column;
         align-items: flex-start; 
         padding: 10px;
-        text-align: justify;
         line-height: 1.5;
         overflow-y: scroll;
         p{
@@ -76,7 +75,7 @@
     margin-right: 2%;
     border-collapse:collapse;
     padding:  5px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     table{
         background-color: $colortabla;
         width: 100%;

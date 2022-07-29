@@ -242,8 +242,7 @@ img {
 
 body {
   font-family: sans-serif;
-  width: 100%;
-  position: relative; }
+  width: 100%; }
 
 * {
   padding: 0;
@@ -295,7 +294,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    text-align: justify;
     line-height: 1.5;
     overflow-y: scroll; }
     .parte2 .esport p {
@@ -317,7 +315,7 @@ body {
   margin-right: 2%;
   border-collapse: collapse;
   padding: 5px;
-  margin-bottom: 10%; }
+  margin-bottom: 5%; }
   .muestra table {
     background-color: lavender;
     width: 100%;
@@ -360,7 +358,7 @@ body {
   margin-right: 2%;
   border-collapse: collapse;
   padding: 5px;
-  margin-bottom: 10%; }
+  margin-bottom: 2%; }
   .muestra1 table {
     background-color: lavender;
     width: 100%;
@@ -413,26 +411,26 @@ body {
 .duda {
   margin-left: 30px;
   font-size: 40px;
-  color: antiquewhite; }
+  color: black; }
 
 .parrafo {
   font-size: 20px;
   font-weight: 300;
-  color: white;
+  color: black;
   margin-left: 20px;
   margin-top: 20px; }
 
 .contacto {
   border: double white 5px;
-  padding: 20px 50px;
-  color: white;
+  padding: 20px 20px;
+  color: black;
   margin-top: 50px;
   margin-bottom: 100px;
   margin-left: 50px;
   margin-right: 50px; }
   .contacto legend {
     font-size: 30px;
-    color: antiquewhite;
+    color: black;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px; }
@@ -446,8 +444,9 @@ body {
   height: 100px; }
 
 .fondo {
-  background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");
-  background-size: auto; }
+  background-image: url("https://blenderartists.org/uploads/default/original/4X/0/6/8/068977e30f259550c608dc2f33eada73aa140e8c.jpeg");
+  /*background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");*/
+  background-size: 100%; }
 
 @media screen and (max-width: 800px) {
   .contact {
