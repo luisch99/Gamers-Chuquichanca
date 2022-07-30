@@ -129,25 +129,23 @@ footer {
 /* Inicio de grid */
 .grid-container {
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 325px;
+  grid-template-rows: 355px;
   display: grid;
   background-color: lightslategray;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px; }
+  /*margin-top: 50px;
+    margin-bottom: 50px;*/
+  margin: 0% auto;
+  width: 85%; }
   .grid-container .hijo {
     border: solid rgba(0, 0, 0, 0.2) 2px;
     text-align: center;
-    padding: 5% 5%;
-    overflow-y: scroll; }
+    padding: 5% 5%; }
 
 .grid-container .hijo {
   border: solid rgba(0, 0, 0, 0.2) 2px;
   text-align: center;
-  padding: 5% 5%;
-  overflow-y: scroll; }
+  padding: 5% 5%; }
   .grid-container .hijo img {
     height: 100%;
     width: 100%; }
@@ -160,12 +158,12 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; }
-    .grid-container .hijo h1 p {
-      color: black;
-      margin-bottom: 50px;
-      font-size: 20px;
-      font-weight: 10%;
-      text-align: justify; }
+  .grid-container .hijo p {
+    color: black;
+    margin-bottom: 50px;
+    font-size: 100%;
+    font-weight: 10%;
+    text-align: justify; }
 
 /* Fin de grid */
 iframe {
@@ -478,3 +476,12 @@ body {
   .cons {
     width: 100%;
     height: 100px; } }
+
+@media screen and (max-width: 800px) {
+  .grid-container {
+    width: 100%;
+    height: 100%; }
+    .grid-container .hijo h1 {
+      font-size: 100%; }
+    .grid-container .hijo p {
+      font-size: 90%; } }
