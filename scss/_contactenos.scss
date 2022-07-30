@@ -33,6 +33,17 @@
         padding-bottom: 25px;
         
     }
+    .form{
+        input,textarea{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .pais{
+            margin-bottom: 10px;
+            
+        }
+    }
+    
 }
     
 .cons{
@@ -44,6 +55,7 @@
 
     background-image: url("https://blenderartists.org/uploads/default/original/4X/0/6/8/068977e30f259550c608dc2f33eada73aa140e8c.jpeg");
     /*background-image: url("https://i0.wp.com/www.mundoinsider.com/wp-content/uploads/sites/9/2020/04/arcade.jpg?fit=1920%2C1080&ssl=1");*/
-    background-size: 100%;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
    
 }

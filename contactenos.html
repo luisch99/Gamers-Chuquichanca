@@ -38,7 +38,7 @@
     </header>
 
 
-    <main >
+    <main>
         <h1 class="title">CONTÁCTENOS</h1>
         <h2 class="duda">
             ¿Tienes alguna duda o sugerencia?
@@ -48,19 +48,19 @@
             pronto posible.
         </p>
         <section class="contacto">
-            <div>
-                <form class="form" action="contacto.html">
-                    <h3>Datos Personales </h3>
-                    <br>
-                    <label for="name">Nombres: </label>
-                    <input type="text" id="name" placeholder="Ingrese sus nombres">
-                    <br><br>
-                    <label for="ape">Apellidos: </label>
-                    <input type="text" id="ape" placeholder="Ingrese sus apellidos">
-                    <br><br>
-                    <label for="correo">Email:</label>
-                    <input type="email" id="correo" placeholder="ejemplo@gmail.com">
-                    <br><br>
+
+            <form class="form" action="contacto.html">
+                <h3>Datos Personales </h3>
+
+                <label for="name">Nombres: </label>
+                <input type="text" id="name" placeholder="Ingrese sus nombres">
+
+                <label for="ape">Apellidos: </label>
+                <input type="text" id="ape" placeholder="Ingrese sus apellidos">
+
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" placeholder="ejemplo@gmail.com">
+                <div class="pais">
                     <label for="pais">País:</label>
                     <select name="pais" id="Pais">
                         <option value="s">Selecciona</option>
@@ -73,36 +73,30 @@
                         <option value="Pa">Paraguay</option>
                         <option value="U">Uruguay</option>
                     </select>
-                    </label>
-                    <br><br>
-                    <label for="telefono">Numero de telefono</label>
-                    <input type="tel" id="telefono" placeholder="960224169">
-            </div>
-            <br>
-            <fieldset class="consulta">
-                <legend> ¿Cual es el motivo de consulta? </legend>
+                </div>
+                </label>
+                <label for="telefono">Numero de telefono</label>
+                <input type="tel" id="telefono" placeholder="960224169">
 
-                <label for="op1">Proximos eventos</label>
-                <input type="radio" id="op1" value="eventos" name="envio">
-                <br><br>
-                <label for="op2">Informacion extra</label>
-                <input type="radio" id="op2" value="info" name="envio">
-                <br><br>
-                <label for="op3">Error de información</label>
-                <input type="radio" id="op3" value="errorInfo" name="envio">
-                <br><br>
-                <label for="op4">Otro motivo</label>
-                <input type="radio" id="op4" value="difMot" name="envio">
-                <br><br>
-                <label for="comentario">Deje su mensaje:</label>
-                <br><br>
-                <textarea name="|" class="cons" placeholder="Escribe aquí tu duda o sugerencia o queja."></textarea>
-                <br><br>
-                <input class="boton" type="reset" value="Cancelar">
-                <input class="boton" type="submit" value="Enviar">
-            </fieldset>
+                <br>
+                <fieldset class="consulta">
+                    <legend> ¿Cual es el motivo de consulta? </legend>
+
+                    <label for="op1">Proximos eventos</label>
+                    <input type="radio" id="op1" value="eventos" name="envio">
+                    <label for="op2">Informacion extra</label>
+                    <input type="radio" id="op2" value="info" name="envio">
+                    <label for="op3">Error de información</label>
+                    <input type="radio" id="op3" value="errorInfo" name="envio">
+                    <label for="op4">Otro motivo</label>
+                    <input type="radio" id="op4" value="difMot" name="envio">
+                    <label for="comentario">Deje su mensaje:</label>
+                    <textarea name="|" class="cons" placeholder="Escribe aquí tu duda o sugerencia o queja."></textarea>
+                    <input class="boton" type="reset" value="Cancelar">
+                    <input class="boton" type="submit" value="Enviar">
+                </fieldset>
+            </form>
         </section>
-        </form>
     </main>
 
     <footer>
