@@ -1,0 +1,13 @@
+//maps
+$paleta:(
+    'uno':#224381,
+    'dos':lightblue,
+);
+
+//cambio a historia
+.historias{
+    background-color: map-get($map: $paleta, $key:'uno' )
+}
+.marco{
+    background-color: map-get($map: $paleta, $key:'dos' )
+}

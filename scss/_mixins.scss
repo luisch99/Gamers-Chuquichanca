@@ -1,0 +1,27 @@
+//historia
+@mixin texto($fontSize, $lineHeight, $color){
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $color;
+    
+}
+.marco p{
+    @include texto(20px, 1.5, black);
+}
+
+@mixin fondos1{
+    background-image:url("https://i.pinimg.com/736x/40/e1/35/40e1356ce7acd94d2e8ac21873bd4f51.jpg") ;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.fondo1{
+@include fondos1();
+}
+@mixin fondos2{
+    background-image: url("https://blenderartists.org/uploads/default/original/4X/0/6/8/068977e30f259550c608dc2f33eada73aa140e8c.jpeg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.fondo{
+    @include fondos2();
+}
