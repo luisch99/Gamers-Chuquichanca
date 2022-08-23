@@ -46,3 +46,29 @@
     }
     
 }
+
+@media (max-width: 500px){
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 5px 5px;
+    }
+
+    .nav-menu{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .muestra1{
+        margin-bottom: 20px;
+    }
+    .compañia th{
+        font-size: small;
+    }
+    .compañia td{
+        font-size: small;
+    }
+}
