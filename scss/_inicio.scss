@@ -1,15 +1,4 @@
-/*
-.title{
-    text-align: center;
-    font-size: $tallatitulo;
-    margin-top: 30px;
-    font-weight: 100;
-    color: $titulocolor;
-    animation-duration: 5s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite; 
 
-}*/
 @keyframes aparecer{
     0%{
         opacity: 0;
@@ -26,8 +15,6 @@
     display: grid;
     background-color:$colorgrid;
     border: 2px solid $colorbox;
-    /*margin-top: 50px;
-    margin-bottom: 50px;*/
     margin: 0% auto;
     width: 85%;
     
